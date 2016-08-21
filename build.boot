@@ -6,7 +6,9 @@
                  [adzerk/boot-reload        "0.4.12"      :scope "test"]
                  [cirru/stack-server        "0.1.7"       :scope "test"]
                  [adzerk/boot-test          "1.1.2"       :scope "test"]
+                 [org.clojure/core.async    "0.2.385"]
                  [mvc-works/hsl             "0.1.2"]
+                 [respo/ui                  "0.1.1"]
                  [respo                     "0.3.9"]])
 
 (require '[adzerk.boot-cljs   :refer [cljs]]
